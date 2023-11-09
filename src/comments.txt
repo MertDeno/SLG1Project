@@ -1,0 +1,64 @@
+/*
+  const onInputChange = (e) => {
+    debugger
+   // let objectValue = e.target.value
+    const objFound = objectList.find((item) => item.Object === e.target.value.toUpperCase() ) 
+    !objFound ? (setObjValueEntered(false) && setSubObjValue('')) : setObjValueEntered(true)
+    objFound ? setObjValue(objFound.Object) : setObjValue('')
+  }
+
+  const onUserInputChange = (e) => {
+    debugger
+   // let objectValue = e.target.value
+    const userFound = userList.find((item) => item.Bname === e.target.value.toUpperCase() ) 
+    !userFound ? (setUserValueEntered(false) && setUserValue('')) : setUserValueEntered(true)
+    userFound ? setUserValue(userFound.Bname) : setUserValue('')
+  }*/
+
+  /*  const setSubObjBtnClicked = () => {
+    setSubObjBtnClicked(!subObjDialogOpened)
+  }*/
+
+
+        /*  <>
+          <TableColumn>
+            <Label>Log Number</Label>
+          </TableColumn>
+          <TableColumn>
+            <Label>Number</Label>
+          </TableColumn>
+          <TableColumn>
+            <Label>Date/Time/User</Label>
+          </TableColumn>
+          <TableColumn>
+            <Label>External ID</Label>
+          </TableColumn>
+          <TableColumn>
+            <Label>Object Text</Label>
+          </TableColumn>
+          <TableColumn>
+            <Label>Subobject Text</Label>
+          </TableColumn>
+          <TableColumn>
+            <Label>Transaction Code</Label>
+          </TableColumn>
+          <TableColumn>
+            <Label>Program</Label>
+          </TableColumn>
+          <TableColumn>
+            <Label>Mode</Label>
+          </TableColumn>
+        </>}>*/
+        /*  {resultList.map((item, key) => (
+            <TableRow key={item+" "+key}>
+              <TableCell>{item.LogNumber}</TableCell>
+              <TableCell>{item.MsgCntAl}</TableCell>
+              <TableCell>{moment(dateFrom).format('DD.MM.YYYY')+" "+item.Altime.replace('PT','').replace('H',':').replace('M',':').replace('S','')+" "+item.Aluser}</TableCell>
+              <TableCell>{item.Extnumber}</TableCell>
+              <TableCell>{item.Objtxt}</TableCell>
+              <TableCell>{item.Subobjtxt}</TableCell>
+              <TableCell>{item.Altcode}</TableCell>
+              <TableCell>{item.Alprog}</TableCell>
+              <TableCell>{item.BalmodeTxt}</TableCell>
+            </TableRow>
+          ))}*/

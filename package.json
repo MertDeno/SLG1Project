@@ -1,0 +1,48 @@
+{
+  "name": "applicationlogslg1",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080/ObjectEntitySet",
+  "dependencies": {
+    "@ui5/webcomponents": "~1.18.0",
+    "@ui5/webcomponents-fiori": "~1.18.0",
+    "@ui5/webcomponents-icons": "~1.18.0",
+    "@ui5/webcomponents-react": "^1.21.1",
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cypress run --component --browser chrome",
+    "eject": "react-scripts eject",
+    "test:open": "cypress open --component --browser chrome"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@ui5/webcomponents-cypress-commands": "^1.21.0",
+    "cypress": "^12.17.4",
+    "react-router-dom": "^6.18.0"
+  }
+}
